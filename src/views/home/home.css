@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+h2{
+text-align: center;
+}
+.main{
+    background-image: url(./hmimg.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+span{
+    width: fit-content;
+    background-color: aqua;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    display: block;
+    margin: 10px auto;
+}
