@@ -3,13 +3,12 @@ import "./home.css"
 import "../../components/cards.css"
 import Display from '../../components/cards';
 const products = [{
-    title: 'table',
+    title: 'Table',
     price: 40000,
     url: 'https://img.freepik.com/free-photo/home-interior-design-arrangement_23-2148986615.jpg?uid=R160163945&ga=GA1.1.1856927002.1722677193&semt=ais_hybrid'
 
 }, {
-
-    title: 'sofa',
+     title: 'Sofa',
     price: 47000,
     url: 'https://img.freepik.com/free-photo/contemporary-living-room-interior-design-with-white-sofa_53876-126774.jpg?uid=R160163945&ga=GA1.1.1856927002.1722677193&semt=ais_hybrid'
 },{
@@ -44,8 +43,8 @@ const products = [{
 function Home() {
     return <div className='main'>
         <h1>Welcome to Happy homes</h1>
-        <h2>Exotic,Simple and Comfortable home decor..... </h2>
-        <span>explore our aesthetics...</span>
+        <h2>Exotic Simple and Comfortable home decor..... </h2>
+        <span>Explore our aesthetics...</span>
         <div className='cardcontainer'>
             {products.map((product) => (
                 <Display

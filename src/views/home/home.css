@@ -4,11 +4,17 @@ body{
 }
 h1{
     text-align: center;
-    color: brown;
+    background-color: #1E2A5E;
     height: fit-content;
+    color: #E2E2B6;
+    margin-top: 0px;
 }
 h2{
 text-align: center;
+background-color: #6EACDA;
+width: fit-content;
+margin-left: 35%;
+
 }
 .main{
     background-image: url(./hmimg.jpg) ;
@@ -22,7 +28,7 @@ text-align: center;
 }
 span{
     width: fit-content;
-    background-color: aqua;
+    background-color: #E2E2B6;
     text-align: center;
     font-style: italic;
     font-size: larger;
