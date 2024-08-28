@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    background-color: #1E2A5E;
+    height: fit-content;
+    color: #E2E2B6;
+    margin-top: 0px;
+}
+.map-iframe {
+    border: 0;
+    width: 40%;
+    height: 350px;
+  }
+  
