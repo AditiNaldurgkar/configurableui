@@ -42,7 +42,7 @@ const products = [{
 }]
 function Home() {
     return <div className='main'>
-        <h1>Welcome to Happy homes</h1>
+        <h1>Welcome to HomeTown</h1>
         <h2>Exotic Simple and Comfortable home decor..... </h2>
         <span>Explore our aesthetics...</span>
         <div className='cardcontainer'>

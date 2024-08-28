@@ -5,6 +5,13 @@ h1{
     color: #E2E2B6;
     margin-top: 0px;
 }
+.abt-main{
+    background-image: url("./backimg.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
 .map-iframe {
     border: 0;
     width: 40%;
