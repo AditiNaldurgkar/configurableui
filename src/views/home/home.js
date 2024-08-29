@@ -2,6 +2,7 @@ import React from 'react';
 import "./home.css"
 import "../../components/cards.css"
 import Display from '../../components/cards';
+import Header from "./../../components/header/header"
 const products = [{
     title: 'Table',
     price: 40000,
@@ -42,6 +43,7 @@ const products = [{
 }]
 function Home() {
     return <div className='main'>
+        <Header/>
         <h1>Welcome to HomeTown</h1>
         <h2>Exotic Simple and Comfortable home decor..... </h2>
         <span>Explore our aesthetics...</span>

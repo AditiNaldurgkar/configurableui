@@ -1,9 +1,11 @@
 import "./about.css";
 import img from "./shop2.jpg"
+import Header from "../../components/header/header";
 
 function About() {
   return (
     <div className="abt-main">
+      <Header/>
       <h1>About Us</h1>
       <p className="heading">Our Location:</p>
       <iframe
