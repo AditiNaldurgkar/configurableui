@@ -11,6 +11,9 @@ body {
     flex-direction: row;
     position: relative;
     align-items: center; /* Align items vertically centered */
+    background-color: #1E2A5E;
+    color: #E2E2B6;
+    margin-bottom: 10px;
 }
 
 h4 {

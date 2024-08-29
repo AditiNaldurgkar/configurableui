@@ -1,8 +1,7 @@
-h1{
+.title{
     text-align: center;
-    background-color: #1E2A5E;
     height: fit-content;
-    color: #E2E2B6;
+    color: #000;
     margin-top: 0px;
 }
 .abt-main{

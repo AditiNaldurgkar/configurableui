@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="abt-main">
       <Header/>
-      <h1>About Us</h1>
+      <h1 className="title">About Us</h1>
       <p className="heading">Our Location:</p>
       <iframe
         className="map-iframe"
