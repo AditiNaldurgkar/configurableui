@@ -3,6 +3,7 @@ import "./home.css"
 import "../../components/cards.css"
 import Display from '../../components/cards';
 import Header from "./../../components/header/header"
+import Footer  from '../../components/footer/footer';
 const products = [{
     title: 'Table',
     price: 40000,
@@ -57,6 +58,7 @@ function Home() {
             ))}
 
         </div>
+        <Footer/>
     </div>
 
 }

@@ -2,6 +2,7 @@ import "./about.css";
 import img from "./shop2.jpg"
 import Header from "../../components/header/header";
 
+
 function About() {
   return (
     <div className="abt-main">
