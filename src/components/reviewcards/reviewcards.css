@@ -1,25 +1,34 @@
 .review-card {
     border: 1px solid black;
     border-radius: 8px;
-    padding: 16px;
-    margin: 16px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
+    width: 250px;
     background-color: #f9f9f9;
+    padding: 10px;
+  }
+  .rcardconainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
   }
   
-  .review-card img {
-    display: block;
-    margin: 0 auto 12px auto;
-    height: 20px;
+  .rimg {
+    padding: 5px;
+    height: 60px;
+    border-radius: 10px;
   }
   
-  .review-card .name {
+  .name {
     font-weight: bold;
     margin-bottom: 8px;
   }
   
-  .review-card .text {
+  .text {
     font-size: 14px;
-    color: #333;
+    color:black;
   }
   

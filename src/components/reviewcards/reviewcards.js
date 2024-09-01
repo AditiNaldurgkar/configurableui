@@ -25,16 +25,16 @@ const reviewCard = [
   
     return (
       <div className="review-card">
-        <img src={imgSrc} alt={`${stars} stars`} />
-        <div>Name: {name}</div>
-        <div>{text}</div>
+        <img src={imgSrc} alt={`${stars} stars`}  className="rimg"/>
+        <div className="name">Name: {name}</div>
+        <div className="text">{text}</div>
       </div>
     );
   }
   
   function ReviewList() {
     return (
-      <div>
+      <div className="rcardconainer">
         {reviewCard.map((review, index) => (
           <Review 
             stars={review.stars}
