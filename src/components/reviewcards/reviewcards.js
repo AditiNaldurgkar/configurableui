@@ -2,12 +2,7 @@ import "./reviewcards.css"
 import img3 from "./3-stars.png" 
 import img4 from "./4stars.png"
 import img5 from "./five-stars.png"
-const reviewCard = [
-    { name: "Radhika P", stars: 4, text: "Good quality of services" },
-    { name: "John D", stars: 5, text: "Nice and good quality furniture" },
-    { name: "Sarah W", stars: 3, text: "Beautiful designs" },
-    { name: "Maya D", stars: 4, text: "Comfortable and affordable decor" }
-  ];
+import { REVIEWCARD } from "../../config/data"
   
   function Review({ name, stars, text }) {
     let imgSrc;
@@ -35,7 +30,7 @@ const reviewCard = [
   function ReviewList() {
     return (
       <div className="rcardconainer">
-        {reviewCard.map((review, index) => (
+        {REVIEWCARD.map((review, index) => (
           <Review 
             stars={review.stars}
             name={review.name}

@@ -1,4 +1,4 @@
-const HEADLINE="Welcome to HomeTown"
+const HEADLINE="Welcome to Hometown"
 const TAGLINE ="Exotic Simple and Comfortable home decor....."
 const PRODUCTS = [{
     title: 'Table',
@@ -38,4 +38,16 @@ const PRODUCTS = [{
     price:15000,
     url:"https://img.freepik.com/free-photo/empty-classroom-desk-with-book-pencils_9975-23879.jpg?uid=R160163945&ga=GA1.1.1856927002.1722677193&semt=ais_hybrid",
 }]
-export  {PRODUCTS,HEADLINE,TAGLINE};
+const MAPSRC ="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14885.430003395652!2d79.0788107!3d21.1381665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c09182878f5b%3A0xa61e7391433285d8!2sHomeTown!5e0!3m2!1sen!2sin!4v1724867560475!5m2!1sen!2sin"
+const REVIEWCARD = [
+    { name: "Radhika P", stars: 4, text: "Good quality of services" },
+    { name: "John D", stars: 5, text: "Nice and good quality furniture" },
+    { name: "Sarah W", stars: 3, text: "Beautiful designs" },
+    { name: "Maya D", stars: 4, text: "Comfortable and affordable decor" }
+  ];
+const YEAR=2024
+const COMPANY="Hometown"
+const THEME=[ {primary:"#1E2A5E ",
+    secondary:"#E2E2B6"}
+]
+export  {PRODUCTS,HEADLINE,TAGLINE,MAPSRC,REVIEWCARD,YEAR,COMPANY,THEME};

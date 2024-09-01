@@ -1,9 +1,10 @@
 import "./footer.css"
 import call from "./call.png";
 import mail from "./new.png"
+import {YEAR,COMPANY} from "./../../config/data"
 function Footer(){
 return <div className="footer">
-    © [YEAR] [ COMPANY]. All rights reserved.<br/>
+    © {YEAR} {COMPANY}. All rights reserved.<br/>
     
     <a href="mailto:hometown@gmail.com"> <img src={mail}/> </a>
     
