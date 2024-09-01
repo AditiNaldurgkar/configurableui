@@ -16,6 +16,7 @@ function About() {
       ></iframe>
       <img src={img} className="shopimg"></img>
       <ReviewList/>
+      <b className="lastline">Do visit our store !!!</b>
       <Footer/>
     </div>
   );
